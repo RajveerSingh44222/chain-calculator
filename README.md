@@ -1,43 +1,41 @@
 # 🔗 Chain Calculator
 
-A Python-based chain calculator application with a clean separation between logic and GUI.  
-This project demonstrates modular design, basic GUI development, and structured code organization.
+A modular Python-based calculator application that supports chained operations, designed with a clear separation between computation logic and the graphical user interface.
 
 ---
 
-## 📌 Project Overview
+## 📌 Overview
 
-The Chain Calculator allows users to perform continuous calculations where the result of one operation can be used as the input for the next.  
-It is designed with a clear separation between the computation logic and the graphical user interface.
+The Chain Calculator allows users to perform continuous calculations where the result of one operation is used as the input for the next.  
+The project follows a structured and maintainable design by separating core logic from the UI layer.
 
 ---
 
 ## ✨ Features
 
-- Perform chained calculations
-- Clean and simple GUI interface
-- Modular code structure (separate logic and UI)
-- Easy to extend with more operations
-- Lightweight and beginner-friendly project
+- Chained calculations support  
+- Simple and intuitive GUI  
+- Modular code structure (logic + UI separation)  
+- Easy to extend with additional operations  
+- Lightweight and beginner-friendly  
 
 ---
 
 ## 📂 Project Structure
-chain_calculator/
-│── main.py # Entry point of the application
-│── gui.py # Handles the user interface
-│── logic.py # Contains calculation logic
-│── README.md # Project documentation
-│── .gitignore # Ignored files
 
+chain_calculator/
+│── main.py        # Entry point  
+│── gui.py         # GUI implementation  
+│── logic.py       # Calculation logic  
+│── README.md      # Documentation  
+│── .gitignore     # Ignored files  
 
 ---
 
-## ⚙️ How to Run Locally
+## ⚙️ Installation & Usage
 
-### 1. Clone the repository
+### Clone the repository
+
 ```bash
 git clone https://github.com/RajveerSingh44222/chain-calculator.git
 cd chain-calculator
-```bash
-python main.py
